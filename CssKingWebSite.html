@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/druk-wide-trial" rel="stylesheet">
+    <title>King of Css</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/druk-wide-trial');
+        body {
+            font-family: 'Druk Wide Trial', sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            display: flex;
+        }
+        li {
+            list-style-type: none;
+            margin-right: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        main {
+            background: rgba(255, 0, 0, 0);
+            height: auto;
+            display: grid;
+            justify-content: center;
+        }
+        .mainUL {
+            display: grid;
+        }
+        .liLink {
+            font-size: 25px;
+            border: 2px solid black;
+            width: 430px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <a href=""><li style="margin-left:-10px;">CSS Projects</li></a>
+            <a href=""><li>Social Media</li></a>
+            <a href=""><li>Contact Me</li></a>
+        </ul>
+    </header>
+    <main>
+        <ul class="mainUL">
+            <a href="squareSlide.html" target="_blank">
+                <li class="liLink">Slidling Square</li>
+            </a>
+            <a href="loadingAnimation.html" target="_blank">
+                <li class="liLink">Loading Animation</li>
+            </a>
+            <a href="borderRadiusAnimation.html" target="_blank">
+                <li class="liLink">Border Radius</li>
+            </a>
+        </ul>
+    </main>
+</body>
+</html>
